@@ -13,9 +13,29 @@
 		D50C464F2B5F2D0000CC3A28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50C464E2B5F2D0000CC3A28 /* Preview Assets.xcassets */; };
 		D50C46512B5F2D0000CC3A28 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46502B5F2D0000CC3A28 /* Persistence.swift */; };
 		D50C46542B5F2D0000CC3A28 /* HomeHarbor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50C46522B5F2D0000CC3A28 /* HomeHarbor.xcdatamodeld */; };
+		D50C465F2B5F2E8900CC3A28 /* SelectUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C465E2B5F2E8900CC3A28 /* SelectUserView.swift */; };
+		D50C46612B5F2EA200CC3A28 /* RenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46602B5F2EA200CC3A28 /* RenterView.swift */; };
+		D50C46692B5F2EFA00CC3A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46682B5F2EFA00CC3A28 /* AppDelegate.swift */; };
+		D50C46702B5F376400CC3A28 /* client_434565834447-g5ch48mda4nolr24ng2itbm3ahfraath.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = D50C466F2B5F376400CC3A28 /* client_434565834447-g5ch48mda4nolr24ng2itbm3ahfraath.apps.googleusercontent.com.plist */; };
+		D50C46732B5F4C1600CC3A28 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46712B5F4C1600CC3A28 /* User+CoreDataClass.swift */; };
+		D50C46742B5F4C1600CC3A28 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46722B5F4C1600CC3A28 /* User+CoreDataProperties.swift */; };
+		D50C46762B6070C800CC3A28 /* User+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46752B6070C800CC3A28 /* User+Extensions.swift */; };
+		D50C46792B6081B800CC3A28 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C46782B6081B800CC3A28 /* AuthenticationView.swift */; };
+		D50C467B2B6081EF00CC3A28 /* SplitWise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C467A2B6081EF00CC3A28 /* SplitWise.swift */; };
+		D50C467D2B6082C300CC3A28 /* OwnerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C467C2B6082C300CC3A28 /* OwnerHomeView.swift */; };
+		D50C467F2B60890E00CC3A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C467E2B60890E00CC3A28 /* CoreDataManager.swift */; };
+		D5C1DEAE2BCDF91F00ABD089 /* OwnerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DEAD2BCDF91F00ABD089 /* OwnerMainView.swift */; };
+		D5C1DEB02BCDF96300ABD089 /* LaundryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DEAF2BCDF96300ABD089 /* LaundryView.swift */; };
+		D5C1DEB22BCDF9EF00ABD089 /* OwnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DEB12BCDF9EF00ABD089 /* OwnerView.swift */; };
+		D5C1DEB42BCDFA3400ABD089 /* PropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DEB32BCDFA3400ABD089 /* PropertiesView.swift */; };
+		D5C1DEB82BCDFA7100ABD089 /* AddPropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DEB72BCDFA7100ABD089 /* AddPropertiesView.swift */; };
+		D5C1DEBA2BCDFA8600ABD089 /* LeasingDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DEB92BCDFA8600ABD089 /* LeasingDocumentsView.swift */; };
+		E9522BE5F655E1A648226B93 /* Pods_HomeHarbor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F0CC79AA00EC394B605C1 /* Pods_HomeHarbor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5F0CC79AA00EC394B605C1 /* Pods_HomeHarbor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeHarbor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39A61C02937742EA19CF901 /* Pods-HomeHarbor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeHarbor.release.xcconfig"; path = "Target Support Files/Pods-HomeHarbor/Pods-HomeHarbor.release.xcconfig"; sourceTree = "<group>"; };
 		D50C46442B5F2CFD00CC3A28 /* HomeHarbor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeHarbor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50C46472B5F2CFD00CC3A28 /* HomeHarborApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHarborApp.swift; sourceTree = "<group>"; };
 		D50C46492B5F2CFD00CC3A28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +43,26 @@
 		D50C464E2B5F2D0000CC3A28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D50C46502B5F2D0000CC3A28 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D50C46532B5F2D0000CC3A28 /* HomeHarbor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeHarbor.xcdatamodel; sourceTree = "<group>"; };
+		D50C465E2B5F2E8900CC3A28 /* SelectUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserView.swift; sourceTree = "<group>"; };
+		D50C46602B5F2EA200CC3A28 /* RenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterView.swift; sourceTree = "<group>"; };
+		D50C46682B5F2EFA00CC3A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50C466C2B5F327900CC3A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D50C466F2B5F376400CC3A28 /* client_434565834447-g5ch48mda4nolr24ng2itbm3ahfraath.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_434565834447-g5ch48mda4nolr24ng2itbm3ahfraath.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		D50C46712B5F4C1600CC3A28 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D50C46722B5F4C1600CC3A28 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D50C46752B6070C800CC3A28 /* User+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Extensions.swift"; sourceTree = "<group>"; };
+		D50C46782B6081B800CC3A28 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		D50C467A2B6081EF00CC3A28 /* SplitWise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitWise.swift; sourceTree = "<group>"; };
+		D50C467C2B6082C300CC3A28 /* OwnerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerHomeView.swift; sourceTree = "<group>"; };
+		D50C467E2B60890E00CC3A28 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D5C1DEAD2BCDF91F00ABD089 /* OwnerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerMainView.swift; sourceTree = "<group>"; };
+		D5C1DEAF2BCDF96300ABD089 /* LaundryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryView.swift; sourceTree = "<group>"; };
+		D5C1DEB12BCDF9EF00ABD089 /* OwnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerView.swift; sourceTree = "<group>"; };
+		D5C1DEB32BCDFA3400ABD089 /* PropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesView.swift; sourceTree = "<group>"; };
+		D5C1DEB72BCDFA7100ABD089 /* AddPropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertiesView.swift; sourceTree = "<group>"; };
+		D5C1DEB92BCDFA8600ABD089 /* LeasingDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasingDocumentsView.swift; sourceTree = "<group>"; };
+		D5F6FE422B6B2368005C0709 /* HomeHarborV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeHarborV2.xcdatamodel; sourceTree = "<group>"; };
+		F50A85A64B4DF321DE099E60 /* Pods-HomeHarbor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeHarbor.debug.xcconfig"; path = "Target Support Files/Pods-HomeHarbor/Pods-HomeHarbor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +70,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9522BE5F655E1A648226B93 /* Pods_HomeHarbor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F487B383A5F03706DB49F8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F50A85A64B4DF321DE099E60 /* Pods-HomeHarbor.debug.xcconfig */,
+				D39A61C02937742EA19CF901 /* Pods-HomeHarbor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D50C463B2B5F2CFD00CC3A28 = {
 			isa = PBXGroup;
 			children = (
 				D50C46462B5F2CFD00CC3A28 /* HomeHarbor */,
 				D50C46452B5F2CFD00CC3A28 /* Products */,
+				2F487B383A5F03706DB49F8F /* Pods */,
+				E385145B2738640782E24D25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,12 +107,30 @@
 		D50C46462B5F2CFD00CC3A28 /* HomeHarbor */ = {
 			isa = PBXGroup;
 			children = (
+				D50C46712B5F4C1600CC3A28 /* User+CoreDataClass.swift */,
+				D50C46722B5F4C1600CC3A28 /* User+CoreDataProperties.swift */,
+				D50C466F2B5F376400CC3A28 /* client_434565834447-g5ch48mda4nolr24ng2itbm3ahfraath.apps.googleusercontent.com.plist */,
+				D50C466C2B5F327900CC3A28 /* Info.plist */,
+				D50C46682B5F2EFA00CC3A28 /* AppDelegate.swift */,
+				D50C46602B5F2EA200CC3A28 /* RenterView.swift */,
+				D50C465E2B5F2E8900CC3A28 /* SelectUserView.swift */,
 				D50C46472B5F2CFD00CC3A28 /* HomeHarborApp.swift */,
 				D50C46492B5F2CFD00CC3A28 /* ContentView.swift */,
 				D50C464B2B5F2D0000CC3A28 /* Assets.xcassets */,
 				D50C46502B5F2D0000CC3A28 /* Persistence.swift */,
 				D50C46522B5F2D0000CC3A28 /* HomeHarbor.xcdatamodeld */,
 				D50C464D2B5F2D0000CC3A28 /* Preview Content */,
+				D50C46752B6070C800CC3A28 /* User+Extensions.swift */,
+				D50C46782B6081B800CC3A28 /* AuthenticationView.swift */,
+				D50C467A2B6081EF00CC3A28 /* SplitWise.swift */,
+				D50C467C2B6082C300CC3A28 /* OwnerHomeView.swift */,
+				D50C467E2B60890E00CC3A28 /* CoreDataManager.swift */,
+				D5C1DEAD2BCDF91F00ABD089 /* OwnerMainView.swift */,
+				D5C1DEAF2BCDF96300ABD089 /* LaundryView.swift */,
+				D5C1DEB12BCDF9EF00ABD089 /* OwnerView.swift */,
+				D5C1DEB32BCDFA3400ABD089 /* PropertiesView.swift */,
+				D5C1DEB72BCDFA7100ABD089 /* AddPropertiesView.swift */,
+				D5C1DEB92BCDFA8600ABD089 /* LeasingDocumentsView.swift */,
 			);
 			path = HomeHarbor;
 			sourceTree = "<group>";
@@ -73,6 +143,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E385145B2738640782E24D25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F0CC79AA00EC394B605C1 /* Pods_HomeHarbor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50C46572B5F2D0000CC3A28 /* Build configuration list for PBXNativeTarget "HomeHarbor" */;
 			buildPhases = (
+				967B17E0BED2CE1CD61BC3AD /* [CP] Check Pods Manifest.lock */,
 				D50C46402B5F2CFD00CC3A28 /* Sources */,
 				D50C46412B5F2CFD00CC3A28 /* Frameworks */,
 				D50C46422B5F2CFD00CC3A28 /* Resources */,
+				2B7D844A73259EB111F0430D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,21 +212,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50C464F2B5F2D0000CC3A28 /* Preview Assets.xcassets in Resources */,
+				D50C46702B5F376400CC3A28 /* client_434565834447-g5ch48mda4nolr24ng2itbm3ahfraath.apps.googleusercontent.com.plist in Resources */,
 				D50C464C2B5F2D0000CC3A28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B7D844A73259EB111F0430D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeHarbor/Pods-HomeHarbor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeHarbor/Pods-HomeHarbor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeHarbor/Pods-HomeHarbor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		967B17E0BED2CE1CD61BC3AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeHarbor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D50C46402B5F2CFD00CC3A28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50C46762B6070C800CC3A28 /* User+Extensions.swift in Sources */,
+				D50C46612B5F2EA200CC3A28 /* RenterView.swift in Sources */,
+				D5C1DEB82BCDFA7100ABD089 /* AddPropertiesView.swift in Sources */,
 				D50C46512B5F2D0000CC3A28 /* Persistence.swift in Sources */,
+				D5C1DEAE2BCDF91F00ABD089 /* OwnerMainView.swift in Sources */,
+				D50C46742B5F4C1600CC3A28 /* User+CoreDataProperties.swift in Sources */,
+				D5C1DEB22BCDF9EF00ABD089 /* OwnerView.swift in Sources */,
+				D50C467B2B6081EF00CC3A28 /* SplitWise.swift in Sources */,
+				D5C1DEB02BCDF96300ABD089 /* LaundryView.swift in Sources */,
+				D5C1DEBA2BCDFA8600ABD089 /* LeasingDocumentsView.swift in Sources */,
+				D50C46792B6081B800CC3A28 /* AuthenticationView.swift in Sources */,
+				D5C1DEB42BCDFA3400ABD089 /* PropertiesView.swift in Sources */,
+				D50C465F2B5F2E8900CC3A28 /* SelectUserView.swift in Sources */,
 				D50C464A2B5F2CFD00CC3A28 /* ContentView.swift in Sources */,
 				D50C46542B5F2D0000CC3A28 /* HomeHarbor.xcdatamodeld in Sources */,
+				D50C46732B5F4C1600CC3A28 /* User+CoreDataClass.swift in Sources */,
+				D50C46692B5F2EFA00CC3A28 /* AppDelegate.swift in Sources */,
 				D50C46482B5F2CFD00CC3A28 /* HomeHarborApp.swift in Sources */,
+				D50C467F2B60890E00CC3A28 /* CoreDataManager.swift in Sources */,
+				D50C467D2B6082C300CC3A28 /* OwnerHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +329,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -253,7 +392,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -274,6 +413,7 @@
 		};
 		D50C46582B5F2D0000CC3A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50A85A64B4DF321DE099E60 /* Pods-HomeHarbor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -283,6 +423,7 @@
 				DEVELOPMENT_TEAM = KKL2F4F5H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeHarbor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +444,7 @@
 		};
 		D50C46592B5F2D0000CC3A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39A61C02937742EA19CF901 /* Pods-HomeHarbor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +454,7 @@
 				DEVELOPMENT_TEAM = KKL2F4F5H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeHarbor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +500,7 @@
 		D50C46522B5F2D0000CC3A28 /* HomeHarbor.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				D5F6FE422B6B2368005C0709 /* HomeHarborV2.xcdatamodel */,
 				D50C46532B5F2D0000CC3A28 /* HomeHarbor.xcdatamodel */,
 			);
 			currentVersion = D50C46532B5F2D0000CC3A28 /* HomeHarbor.xcdatamodel */;

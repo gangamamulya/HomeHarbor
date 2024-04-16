@@ -13,7 +13,7 @@ struct HomeHarborApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SelectUserView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
